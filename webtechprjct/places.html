@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="images/image.png" alt="University of Michigan-Dearborn Logo" class="navbar-logo">
+
+            
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="events.html">Events</a>
+                <a href="departments.html">Departments</a>
+                <a href="groups.html">Groups</a>
+                <a href="places.html">Places</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <ul class="place-list">
+                <li class="place-item">UMD Main Campus</li>
+                <li class="place-item">Library and Information Center</li>
+                <li class="place-item">Engineering Building</li>
+                <li class="place-item">Student Center</li>
+                <li class="place-item">Arts Gallery</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 UMD University. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<style>
+    .header {
+        background-color: #8C1515;
+        color: #fff;
+        padding: 20px 0;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+        background-color: #8C1515;
+        padding: 10px;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 12px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .navbar a:hover {
+        background-color: #5e0e0e;
+        color: #ffffff;
+        border-radius: 5px;
+    }
+
+    .place-list {
+        list-style: none;
+        padding: 0;
+        margin: 40px 0;
+    }
+
+    .place-item {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        transition: transform 0.2s;
+    }
+
+    .place-item:hover {
+        transform: scale(1.02);
+    }
+
+    .footer {
+        background-color: #8C1515;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
